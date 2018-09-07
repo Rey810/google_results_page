@@ -1,0 +1,424 @@
+div {
+  display: block;
+  font-family: arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+}
+
+/*Styling for header of page*/
+header {
+  position: relative;
+  background-color: #fafafa;
+  border-bottom: 1px solid #e4e4e4;
+  height: 122px;
+}
+
+a {
+  text-decoration: none;
+  color:  #1a0dab;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  position: relative;
+  top: 13px;
+}
+
+.logo {
+  position: absolute;
+  padding-left: 13px;
+  padding-right: 10px;
+  padding-top: 10.5px;
+}
+
+.searchbox {
+  position: absolute;
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.16), 0px 0px 0px 1px rgba(0,0,0,0.08);
+  margin-top: 9px;
+  margin-left: 150px;
+}
+
+.searchbox input[type=text]{
+  width: 632px;
+  height: 41px;
+}
+
+/*Within searchbar*/
+#mic {
+  position: absolute;
+  left: 560px;
+  top: 12px;
+}
+/*Within searchbar*/
+#search {
+  position: absolute;
+  left: 595px;
+  top: 10px;
+}
+
+.top-nav-right {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  padding-right:30px;
+}
+
+/* top right icons*/
+.material-icons {
+  padding-left: 15px;
+  color: black;
+  opacity: .55;
+}
+
+/*header:various clickable links*/
+.option {
+  position: absolute;
+  width: 650px;
+  height: 58px;
+  bottom: 0px;
+  padding-left: 150px;
+  font-family: arial, sans-serif;
+}
+
+.option a {
+  color: #777;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.option-right {
+  position: absolute;
+  bottom: 12px;
+  right: -10px;
+  padding: 0 15px;
+}
+
+#tools {
+  padding: 4px 15px 4px 15px;
+  color: #777;
+}
+
+#tools:hover {
+  border: 1px solid #c6c6c6;
+  background: linear-gradient(top, #eee, #e0e0e0);
+  box-shadow: inset 0 1px 2px 0 rgba(0,0,0,0,1);
+  border-radius: 2px;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#f8f8f8),to(#f1f1f1));
+}
+
+#settings {
+  position: relative;
+  /*
+  Use for 'fixed' pos.
+  left: 670px;
+  top: 93.5px;
+  */
+  padding: 0 8px 0;
+  margin: 0 8px 0 8px;
+}
+
+.option-left {
+  position: absolute;
+  bottom: 12px;
+}
+
+.option-left a:hover {
+  color: black;
+}
+
+#images, #news, #videos, #maps, #more {
+  position: relative;
+  bottom: 0px;
+  padding: 28px 16px 12px 16px;
+}
+
+#all {
+  position: relative;
+  bottom: 0px;
+  border-bottom: 3px solid #1A73E8;
+  color: #1A73E8;
+  bottom: 0px;
+  padding: 28px 16px 12px 16px;
+  font-weight: bold;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  line-height: 40px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+
+}
+
+.footer a {
+  position: relative;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 9pt;
+  color: #777;
+  padding: 0 10px 0 10px;
+  display: inline-block;
+}
+
+.footer-top {
+  padding-left: 150px;
+}
+
+.location {
+  display: inline-block;
+}
+
+.more-location {
+  display: inline-block;
+  color: #777;
+  font-size: small;
+  padding: 0 0 0 16px;
+  margin: 0 0 0 13px;
+  border-left: 1px solid #e4e4e4;
+  line-height: 25px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #e4e4e4;
+  margin-left: -20px;
+  padding-left: 160px;
+}
+
+/*Results including search time and all result content*/
+.result-time, .search-results {
+  font-family: arial, sans-serif;
+  position: relative;
+  margin-left: 150px;
+  padding-left: 16px;
+  margin-top: 22px;
+  margin-right:540px;
+}
+
+.search-results {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 0;
+}
+
+/*Result link title*/
+.a a {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+/*Result link address*/
+.b .span-1 {
+  font-size: 14px;
+  color: #006621;
+}
+
+/*Result link description*/
+.b .span-2 {
+  font-size: small;
+  color: #545454;
+}
+
+.a a:hover {
+  text-decoration: underline;
+}
+
+.second-result {
+  margin-top:10px;
+}
+
+.third-result {
+  margin-top:10px;
+}
+
+.fourth-result {
+  margin-top:10px;
+}
+
+.fifth-result {
+  margin-top:10px;
+}
+
+.results-end {
+  font-family: arial, sans-serif;
+  position: relative;
+  padding-right: 16px;
+  margin-top: 22px;
+}
+
+.title {
+  color: #222;
+  font-size: 18px;
+  padding-bottom: 12px;
+}
+-
+.related-left a {
+  text-decoration: none;
+  padding: 3px 32px 3px 0;
+  font-size: 14px;
+}
+
+.related-left p {
+  margin:0px;
+  line-height: 22px;
+}
+
+.related-right p {
+  margin:0px;
+  line-height: 22px;
+}
+
+.related-left a:hover {
+  text-decoration: underline;
+}
+
+.related-left, .related-right {
+  display: inline-block;
+  margin-top: -1px;
+}
+
+.results-end a {
+  text-decoration: none;
+  font-size: 14px;
+  padding: 3px 32px 3px 0;
+  line-height: 0px;
+  color: #1a0dab;
+}
+
+.results-foot {
+  position: relative;
+  margin: 30px 162px 30px 162px;
+  position: relative;
+}
+
+.numbers {
+  position: relative;
+  left: 28px;
+  margin-top: -7px;
+}
+
+.numbers a {
+  text-decoration: none;
+  color: #4285f4;
+  font-size: small;
+  padding-left: 9px;
+}
+
+.numbers a:hover{
+  text-decoration: underline;
+}
+
+.next-button {
+  position: absolute;
+  left: 288px;
+  top: 1px;
+}
+
+.extra {
+  position: relative;
+  width: 480px;
+  border: 1px solid #c6c6c6;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.band-name {
+  padding: 12px 15px;
+}
+
+.share {
+  float: right;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.available {
+  padding: 0 15px;
+  border-top: 1px solid #ebebeb;
+}
+
+.avail-title {
+  font-size: 18px;
+  margin-top: 24px;
+}
+
+.avail-block {
+  padding-top: 8px;
+}
+
+.spotify {
+  padding: 5px;
+  border-top: 1px solid #ebebeb;
+}
+
+.deezer, .youtube, .tunein {
+  padding: 5px;
+  border-top: 1px solid #f5f5f5;
+}
+
+.avail-block img {
+  margin-right: 8px;
+  padding: 2px;
+  vertical-align: middle;
+}
+
+.avail-block a:hover {
+  text-decoration: underline;
+}
+
+.available a {
+  text-decoration: none;
+}
+
+.available span {
+  color: rgba(0,0,0,87);
+  font-size: small;
+  vertical-align:middle;
+}
+
+.tunein {
+  border-bottom:1px solid #ebebeb;
+}
+
+.more-info {
+  font-size: small;
+  padding: 0 15px;
+}
+
+.descript, .also, .members, .genres, .also{
+  margin: 13px 0;
+}
+
+.albums-top-line {
+  margin: 24px 15px 0 15px;
+}
+
+.album-pics-descript {
+  padding-top: 8px;
+}
+
+.album-pics-descript span {
+  font-size: small;
+}
+
+.album-pics-descript a:hover {
+  text-decoration: none;
+}
+
+.album-1, .album-2, .album-3, .album-4, .album-5 {
+  padding-left: 16px;
+  display: inline-block;
+}
+
+.album-1-date, .album-2-date, .album-3-date, .album-4-date, .album-5-date {
+  font-size: x-small;
+  color: #777;
+  padding-top: 2px;
+}
